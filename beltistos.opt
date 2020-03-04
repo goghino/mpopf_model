@@ -1,0 +1,23 @@
+                nlp_scaling_method       gradient-based
+          nlp_scaling_max_gradient       1.000000
+   nlp_scaling_obj_target_gradient       1.000000
+nlp_scaling_constr_target_gradient       1.000000
+                       mu_strategy       adaptive
+                          max_iter       100
+                       mu_max_fact       1
+                         mu_oracle       quality-function
+                   fixed_mu_oracle       quality-function
+         adaptive_mu_globalization       obj-constr-filter
+
+
+                       print_level       5
+           print_timing_statistics       yes
+                 beltistos_verbose       0
+                    pardiso_msglvl       0
+
+#     start_with_resto                      yes
+#     expect_infeasible_problem             yes
+#     required_infeasibility_reduction      1e-4
+##    obj_max_inc                           1.01
+##    soft_resto_pderror_reduction_factor   1
+##    expect_infeasible_problem_ytol        0.1
