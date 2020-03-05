@@ -14,10 +14,3 @@ nlp_scaling_constr_target_gradient       1.000000
            print_timing_statistics       yes
                  beltistos_verbose       0
                     pardiso_msglvl       0
-
-#     start_with_resto                      yes
-#     expect_infeasible_problem             yes
-#     required_infeasibility_reduction      1e-4
-##    obj_max_inc                           1.01
-##    soft_resto_pderror_reduction_factor   1
-##    expect_infeasible_problem_ytol        0.1
