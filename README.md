@@ -42,6 +42,7 @@ using the IEEE 118 bus case, considering the polar-power OPF formulation using
 BELTISTOS structure exploiting solver (note that only the default polar-power
 combination is supported by the BELTISTOS) and the initial point specified
 in the case file, use the following options:
+```
 Nperiod = 24;
 Nstorage = 10;
 OPFcase = case118;
@@ -49,14 +50,16 @@ OPFvoltage = POLAR;
 OPFbalance = POWER;
 OPFstart = MPC;
 OPFsolver = BELTISTOS;
-
+```
 
 In order to run the OPF problem using Pegase 1k bus case, considering the
 polar-power OPF formulation using the standard BELTISTOS solver and the
 initial point specified in the case file, use the following options:
+```
 Nperiod = 1;
 OPFcase = case1354pegase;
 OPFvoltage = POLAR;
 OPFbalance = POWER;
 OPFstart = MPC;
 OPFsolver = BELTISTOSopf;
+```
