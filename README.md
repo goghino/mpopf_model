@@ -31,10 +31,10 @@ main file `main.m`. Execute the file to run the simulation.
 #### Problem configuration:
 Specify the number of time periods (`Nperiod`) and storage devices (`Nstorage`).
 If `Nperiod=1` a standard OPF problem is run. For `Nperiod>1` the MPOPF problem with
-Nstorage devices is run. The power grid is selected using the variable OPFcase.
-The OPF problem formulation is specified via OPFvoltage and OPFbalance variables.
-The initial point is configured using OPFstart and the solver is selected via
-OPFsolver. The available options for all parameters can be found in constants.m.
+Nstorage devices is run. The power grid is selected using the variable `OPFcase`.
+The OPF problem formulation is specified via `OPFvoltage` and `OPFbalance` variables.
+The initial point is configured using `OPFstart` and the solver is selected via
+`OPFsolver`. The available options for all parameters can be found in `constants.m`.
 
 #### Examples:
 In order to run the MPOPF problem with 24 time periods and 10 storage devices
