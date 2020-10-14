@@ -19,7 +19,7 @@ INSTALL:
 
 Obtain the framework at http://www.beltistos.com. You will also need to
 obtain the licence from the same website. The licence should
-be located in $(HOME)/pardiso.lic file.
+be located in `$(HOME)/pardiso.lic` file.
 
 
 RUN:
@@ -28,7 +28,7 @@ RUN:
 Set the parameters related to the problem specification and solver in the
 main file `main.m`. Execute the file to run the simulation.
 
-Problem configuration:
+#### Problem configuration:
 Specify the number of time periods (`Nperiod`) and storage devices (`Nstorage`).
 If `Nperiod=1` a standard OPF problem is run. For `Nperiod>1` the MPOPF problem with
 Nstorage devices is run. The power grid is selected using the variable OPFcase.
@@ -36,11 +36,11 @@ The OPF problem formulation is specified via OPFvoltage and OPFbalance variables
 The initial point is configured using OPFstart and the solver is selected via
 OPFsolver. The available options for all parameters can be found in constants.m.
 
-Examples:
+#### Examples:
 In order to run the MPOPF problem with 24 time periods and 10 storage devices
 using the IEEE 118 bus case, considering the polar-power OPF formulation using
 BELTISTOS structure exploiting solver (note that only the default polar-power
-combination is supported by the BELTISTOS) and the initial point specified
+combination is supported by BELTISTOS at the moment) and the initial point specified
 in the case file, use the following options:
 ```
 Nperiod = 24;
